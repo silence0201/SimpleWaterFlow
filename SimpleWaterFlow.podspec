@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SimpleWaterFlow"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Simple WaterFlow"
   s.description  = <<-DESC
                     A simple way to realize WaterFlow
@@ -9,8 +9,10 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Silence" => "374619540@qq.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/silence0201/SimpleWaterFlow.git", :tag => "1.0" }
+  s.platform     = :ios, "7.0"
+  s.source       = { :git => "https://github.com/silence0201/SimpleWaterFlow.git", :tag => "1.1" }
   s.source_files  = "FlowLayout", "FlowLayout/*.{h,m}"
   s.exclude_files = "FlowLayout/Exclude"
+  s.public_header_files = "FlowLayout/*.h"
   s.requires_arc = true
 end
