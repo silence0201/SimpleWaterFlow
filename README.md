@@ -2,8 +2,15 @@
 
 核心代码:[FlowLayout](FlowLayout)
 
-####使用方法:
+####安装
+#####手工导入:
 导入文件[FlowLayout](FlowLayout)
+#####pod安装:
+	
+	pod 'SimpleWaterFlow', '~> 1.1'
+
+####使用方法:
+
 	
 	#import "SIWaterFlowLayout.h"
 	
